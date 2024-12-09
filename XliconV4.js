@@ -18821,7 +18821,7 @@ XliconBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 	} catch (err) {
 		console.log(util.format(err))
         let e = String(err)
-XliconBotInc.sendMessage("923264476886@s.whatsapp.net", { text: "🌹 Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XliconBotInc.sendMessage("628895154319@s.whatsapp.net", { text: "🌹 WOI ERROR AJG,DI FIX LA KONTOLLL " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true

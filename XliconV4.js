@@ -18810,25 +18810,7 @@ if (budy.startsWith('$')) {
   });
 }
 
-			if (m.message && budy.toLowerCase() != undefined) {
-if (m.chat.endsWith('broadcast')) return
-if (m.isBaileys) return
-let msgs = global.db.database
-if (!(budy.toLowerCase() in msgs)) return
-XliconBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
-}
-		}
-	} catch (err) {
-		console.log(util.format(err))
-        let e = String(err)
-XliconBotInc.sendMessage("628895154319@s.whatsapp.net", { text: "🌹 WOI ERROR AJG,DI FIX LA KONTOLLL " + util.format(e), 
-contextInfo:{
-forwardingScore: 9999999, 
-isForwarded: true
-}})
-	}
-}
-
+	
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)

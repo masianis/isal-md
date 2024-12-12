@@ -18818,7 +18818,16 @@ if (!(budy.toLowerCase() in msgs)) return
 XliconBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 }
 		}
-	} 
+	} catch (err) {
+		console.log(util.format(err))
+        let e = String(err)
+XliconBotInc.sendMessage("0@s.whatsapp.net", { text: "perbaiki fiturnya ajg " + util.format(e), 
+contextInfo:{
+forwardingScore: 9999999, 
+isForwarded: true
+}})
+	}
+}
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

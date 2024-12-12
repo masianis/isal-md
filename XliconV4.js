@@ -18810,7 +18810,16 @@ if (budy.startsWith('$')) {
   });
 }
 
-	
+			if (m.message && budy.toLowerCase() != undefined) {
+if (m.chat.endsWith('broadcast')) return
+if (m.isBaileys) return
+let msgs = global.db.database
+if (!(budy.toLowerCase() in msgs)) return
+XliconBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
+}
+		}
+	} 
+
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)

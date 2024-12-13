@@ -4758,7 +4758,7 @@ case 'ytv': {
     const videoChannel = videoDetails.channel;
 
     // Create a caption with video details
-    const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n` +
+    const caption = `*_DOWNLOADED BY ISAL_*\n\n` +
       `🎬 *Title*: _${videoTitle}_\n` +
       `🔗 *YouTube URL*: _${videoLink}_\n` +
       `⏳ *Duration*: _${videoDuration}_\n` +
@@ -4797,7 +4797,7 @@ case 'yta2': {
         }
 
         const audioLink = hasil.result.audio;
-        const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n🎵 *Title*: _${hasil.result.title}_\n✨ *Enjoy your audio!* 🎶\n🔥 *Powered by Xlicon Bot* 💻`;
+        const caption = `*_DOWNLOADED BY ISAL_*\n\n🎵 *Title*: _${hasil.result.title}_\n✨ *Enjoy your audio!* 🎶\n🔥 *Powered by Xlicon Bot* 💻`;
 
         // Send caption to the user
         await replygcxlicon(caption);
@@ -4842,7 +4842,7 @@ case 'ytv2': {
     const { title, dl: videoUrl } = apiResponse.data;
 
     // Create a caption
-    const caption = `🎬 *Downloaded by Xlicon v4 MD*\n\n` +
+    const caption = `🎬 *Downloaded BY ISAL*\n\n` +
       `🎥 *Title*: _${title}_\n` +
       `✨ *Enjoy your video!* 🎉\n🔥 *Powered by Xlicon Bot* 💻`;
 
@@ -4881,7 +4881,7 @@ case 'likee': case 'likeedl': {
     const videoWithWatermark = videoDetails.withWatermark;
     const videoWithoutWatermark = videoDetails.withoutwatermark;
 
-    const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n` +
+    const caption = `*_DOWNLOADED BY ISAL_*\n\n` +
       `🎬 *Title*: _${videoTitle}_\n` +
       `📺 *Watch Video*: _${text}_\n` +
       `✨ *Enjoy your video!* 🎥\n🔥 *Powered by Xlicon Bot* 💻`;
@@ -4923,7 +4923,7 @@ case 'capcut': case 'capcutdl': {
     const videoThumbnail = videoDetails.thumbnail || '';
     const videoUrl = videoDetails.video;
 
-    const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n` +
+    const caption = `*_DOWNLOADED BY ISAL_*\n\n` +
       `🎬 *Title*: _${videoTitle}_\n` +
       `📝 *Description*: _${videoDescription}_\n` +
       `✨ *Usage*: _${videoUsage}_\n` +
@@ -18821,7 +18821,7 @@ XliconBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 	} catch (err) {
 		console.log(util.format(err))
         let e = String(err)
-XliconBotInc.sendMessage("0@s.whatsapp.net", { text: "perbaiki fiturnya ajg " + util.format(e), 
+XliconBotInc.sendMessage("628895154319@s.whatsapp.net", { text: "perbaiki fiturnya ajg " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
